@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(30, 28, 28);
+}
+
+#pasteleria {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: #8eb640;
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+.pregunta {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 90px;
+}
+
+.opciones select {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(30, 28, 28);
+    color: #8eb640;
+}
+
+#boton {
+    color: #8eb640;
+    background-color: rgb(30, 28, 28);
+    border-radius: 20px;
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+    width: 150px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/estiloComprar.css">
+    <title>Pasteleria - Object-fit</title>
+</head>
+
+<body>
+    <header>
+        <a id="pasteleria" href="../index.html">Pasteleria</a>
+    </header>
+    <h2 class="pregunta">Como quieres tu pastel?</h2>
+    <form action="../php/datos.php" class="opciones" method="post">
+        <select name="forma">
+            <option disabled selected>Seleccione una forma</option>
+            <option>Redondo</option>
+            <option>Rectangular</option>
+        </select>
+        <select name="saborPasteles" id="">
+            <option disabled selected>Seleccione un sabor</option>
+            <option>Fresa</option>
+            <option>Chocolate</option>
+        </select>
+        <select name="pisosPasteles" id="">
+            <option disabled selected>Seleccione la cantidad de pisos</option>
+            <option>1(clasico)</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5(maximo)</option>
+        </select>
+        <select name="tipoCrema" id="">
+            <option disabled selected>Seleccione el tipo de crema</option>
+            <option>Crema chantilly</option>
+            <option>Crema pastelera</option>
+            <option>Betun</option>
+        </select>
+        <input id="boton" type="submit" value="Comprar ahora">
+    </form>
+</body>
+
+</html>

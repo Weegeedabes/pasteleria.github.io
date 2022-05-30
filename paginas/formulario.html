@@ -1,0 +1,29 @@
+<!DOCTIPE html>
+<html leng="es">
+
+<head>
+    <meta charset="utf-8">
+    <script src="../js/detalles.js"></script>
+    <script src="../js/soloNumeros.js"></script>
+
+    <link rel="stylesheet" href="../estilos/formulario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <h1>Estas a un paso de obtener tu pastel</h1>
+    </center>
+    <center>
+        <form name="miFormulario" id="miFormulario">
+            <input type="text" id="Nombre" placeholder="Ingresa tu nombre">
+            <input type="text" id="Telefono" placeholder="Ingrese su telefono" name="codigo" onkeypress="soloNumeros(event)">
+            <input type="text" id="Direccion" placeholder="Ingrese su direccion">
+            <input type="text" id="Email" placeholder="Ingrese su email">
+            <textarea name="" id="Comentario" cols="30" rows="10" style="resize: none; width: 85%; height: 15%;" placeholder="Comentarios"></textarea>
+            <input type="submit" value="Comprar" onclick="funcionesAgrupadas()" class="boton">
+        </form>
+    </center>
+</body>
+
+</html>

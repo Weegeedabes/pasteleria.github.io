@@ -1,0 +1,69 @@
+#header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    padding: 0;
+    background: url(../imagen/pastel.jpg) no-repeat center center;
+    background-color: #e5e5e5;
+    background-size: cover;
+}
+
+.intro .overlay {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.intro h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size: 10em;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.intro span {
+    color: #a7c44c;
+    font-weight: 600;
+}
+
+.intro p {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+header .intro-text {
+    padding-top: 250px;
+    padding-bottom: 190px;
+    text-align: center;
+}
+
+.menu {
+    position: relative;
+    z-index: 1;
+}
+
+#pasteleria {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: #8eb640;
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+#comprar {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: #8eb640;
+    font-size: 30px;
+    margin-left: 800px;
+}
